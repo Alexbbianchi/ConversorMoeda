@@ -19,11 +19,11 @@ function AnalizadorDeNumeros ()
         <>
             <div className="Body">
                 <header>
-                    <h1 className="title">Analizador de Números</h1>
+                    <h1 className="title">TodoList</h1>
                 </header>
 
                 <section>
-                    <label>Número (entre 1 e 100):</label>
+                    <label>Digíte seus itens</label>
                     <FormComponent onSave={handlerAddItemToList}/>
                     <ListComponent valueList={valueList} />
                 </section>

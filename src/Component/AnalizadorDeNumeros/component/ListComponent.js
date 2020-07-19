@@ -1,7 +1,6 @@
 import React from 'react';
 
-function ListComponent ( { valueList } )
-{
+const ListComponent = ({ valueList }) => {
     return (
         <>
             <div >

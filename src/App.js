@@ -22,7 +22,7 @@ import
   // Clock,
   SelectComponent,
   // SideTransfer,
-  // AnalizadorDeNumeros
+  AnalizadorDeNumeros
 } from './Component/imports'
 
 // import { Home } from './pages/imports'
@@ -32,10 +32,11 @@ function App ()
 
   return (
     <div className="App">
-      <SelectComponent />
+      {/* <SelectComponent /> */}
       {/* <Contador /> */ }
       {/* <Component /> */ }
       {/* <SelectComponent /> */ }
+      <AnalizadorDeNumeros />
     </div>
   );
 }
